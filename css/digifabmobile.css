@@ -1,0 +1,271 @@
+/* CSS RESET */
+* {
+    margin:             0;
+    padding:            0;
+    }
+  
+img {
+    border:             none;
+    vertical-align:     middle;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:        normal;
+    }
+
+
+html {
+    font-family:              sans-serif;
+    -ms-text-size-adjust:     80%;
+    -webkit-text-size-adjust: 80%;
+    box-sizing:               border-box;
+    position:                 relative;
+    height:                   100%;
+    }
+
+*, *:before, *:after {
+    box-sizing:         inherit;
+    }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary, small {
+    display:            block;
+    }
+
+
+/* CUSTOM FONTS */
+/*@font-face {font-family: 'DistrictThin';src: url('../webfonts/1CE0F0_4_0.eot');src: url('../webfonts/1CE0F0_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_4_0.woff') format('woff'),url('../webfonts/1CE0F0_4_0.ttf') format('truetype');} */
+/*@font-face {font-family: 'DistrictThinItalic';src: url('../webfonts/1CE0F0_8_0.eot');src: url('../webfonts/1CE0F0_8_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_8_0.woff') format('woff'),url('../webfonts/1CE0F0_8_0.ttf') format('truetype');} */
+/*@font-face {font-family: 'DistrictLight';src: url('../webfonts/1CE0F0_7_0.eot');src: url('../webfonts/1CE0F0_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_7_0.woff') format('woff'),url('../webfonts/1CE0F0_7_0.ttf') format('truetype');} */
+/*@font-face {font-family: 'DistrictLightItalic';src: url('../webfonts/1CE0F0_3_0.eot');src: url('../webfonts/1CE0F0_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_3_0.woff') format('woff'),url('../webfonts/1CE0F0_3_0.ttf') format('truetype');} */
+@font-face {font-family: 'DistrictBook';src: url('../webfonts/1CE0F0_9_0.eot');src: url('../webfonts/1CE0F0_9_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_9_0.woff') format('woff'),url('../webfonts/1CE0F0_9_0.ttf') format('truetype');} 
+@font-face {font-family: 'DistrictBookItalic';src: url('../webfonts/1CE0F0_5_0.eot');src: url('../webfonts/1CE0F0_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_5_0.woff') format('woff'),url('../webfonts/1CE0F0_5_0.ttf') format('truetype');} 
+/*@font-face {font-family: 'DistrictMedium';src: url('../webfonts/1CE0F0_1_0.eot');src: url('../webfonts/1CE0F0_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_1_0.woff') format('woff'),url('../webfonts/1CE0F0_1_0.ttf') format('truetype');} */
+/*@font-face {font-family: 'DistrictMediumItalic';src: url('../webfonts/1CE0F0_0_0.eot');src: url('../webfonts/1CE0F0_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_0_0.woff') format('woff'),url('../webfonts/1CE0F0_0_0.ttf') format('truetype');} */
+@font-face {font-family: 'DistrictDemi';src: url('../webfonts/1CE0F0_A_0.eot');src: url('../webfonts/1CE0F0_A_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_A_0.woff') format('woff'),url('../webfonts/1CE0F0_A_0.ttf') format('truetype');} 
+/*@font-face {font-family: 'DistrictDemiItalic';src: url('../webfonts/1CE0F0_6_0.eot');src: url('../webfonts/1CE0F0_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_6_0.woff') format('woff'),url('../webfonts/1CE0F0_6_0.ttf') format('truetype');} */
+@font-face {font-family: 'DistrictBold';src: url('../webfonts/1CE0F0_D_0.eot');src: url('../webfonts/1CE0F0_D_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_D_0.woff') format('woff'),url('../webfonts/1CE0F0_D_0.ttf') format('truetype');}
+/*@font-face {font-family: 'DistrictBoldItalic';src: url('../webfonts/1CE0F0_C_0.eot');src: url('../webfonts/1CE0F0_C_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_C_0.woff') format('woff'),url('../webfonts/1CE0F0_C_0.ttf') format('truetype');} */
+/*@font-face {font-family: 'DistrictBlack';src: url('../webfonts/1CE0F0_B_0.eot');src: url('../webfonts/1CE0F0_B_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_B_0.woff') format('woff'),url('../webfonts/1CE0F0_B_0.ttf') format('truetype');} */
+/*@font-face {font-family: 'DistrictBlackItalic';src: url('../webfonts/1CE0F0_2_0.eot');src: url('../webfonts/1CE0F0_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_2_0.woff') format('woff'),url('../webfonts/1CE0F0_2_0.ttf') format('truetype');} */
+
+
+
+/* GLOBAL STYLING */
+html,
+body {
+    position:           relative;
+    background:         #111;
+    }
+.win_safari body {
+    position:           absolute;
+    top:                0;
+    right:              0;
+    bottom:             0;
+    left:               0;
+    right:              -4px;
+    width:              auto;
+    height:             auto;
+    }
+
+body {
+    font-size:          0;
+    line-height:        1;
+    color:              #FFF;
+    font-family:        Arial, Helvetica, sans-serif;
+    font-weight:        normal;
+    font-style:         normal;
+    white-space:        nowrap;
+    -webkit-font-smoothing:antialiased;
+    /*-webkit-text-stroke:1px transparent;*/
+    }
+
+a {
+    color:              #FFF;
+    text-decoration:    underline;
+    outline:            none;
+    }
+
+a:hover {
+    text-decoration:    none;
+    background:         #FFF;
+    color:              #000;
+    }
+
+:-moz-focusring:not(input):not(button):not(select):not(textarea):not(iframe):not(frame):not(body):not(html) {
+    outline:            none;
+    box-shadow:         0 0 3px #619DD7, 0 0 3px #619DD7, 0 0 3px #619DD7;
+    }
+
+
+#info {
+
+    }
+
+
+#about {
+    position:           absolute;
+    overflow:           hidden;
+    text-indent:        -9999px;
+    }
+
+.section {
+    display:            inline-block;
+    position:           relative;
+    overflow:           hidden;
+    width:              25%;
+    height:             100%;
+    border-right:       1px solid #000;
+    white-space:        normal;
+    }
+.win_safari .section {
+    display:            block;
+    float:              left;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+    }
+
+a.section:hover {
+    background:         transparent;
+    }
+
+.section.smaller {
+    width:              4%;
+    }
+
+.section.bigger {
+    width:              88%;
+    }
+
+.section.transition {
+    -webkit-transition: width 400ms ease 200ms;
+    -moz-transition:    width 400ms ease 200ms;
+    transition:         width 400ms ease 200ms;
+    }
+
+.section .label_h,
+.section .label_v {
+    -webkit-transition: top 100ms ease;
+    -moz-transition:    top 100ms ease;
+    transition:         top 100ms ease;
+    }
+
+.section .label_h {
+    position:           absolute;
+    z-index:            3;
+    top:                22px;
+    left:               20px;
+    width:              174px;
+    height:             40px;
+    }
+
+.section.bigger .label_h {
+    top:                22px;
+    -webkit-transition-delay:100ms;
+    -moz-transition-delay:100ms;
+    transition-delay:   100ms;
+    }
+
+.section.smaller .label_h {
+    top:                -96px;
+    }
+
+.section .label_v {
+    position:           absolute;
+    z-index:            2;
+    top:                -200px;
+    left:               50%;
+    margin-left:        -20px;
+    width:              40px;
+    height:             174px;
+    background-repeat:  no-repeat;
+    background-position:50% 0;
+    }
+
+.section.bigger .label_v {
+    top:                -200px;
+    }
+
+.section.smaller .label_v {
+    top:                20px;
+    -webkit-transition-delay:100ms;
+    -moz-transition-delay:100ms;
+    transition-delay:   100ms;
+    }
+
+#tagline,
+#contact_info {
+    position:           absolute;
+    white-space:        pre;
+    text-shadow:        0 1px 2px #000;
+    font-family:        DistrictBook;
+    }
+
+#tagline {
+    z-index:            3;
+    top:                25px;
+    left:               204px;
+    font-family:        DistrictBookItalic;
+    line-height:        1.1;
+    font-size:          14px;
+    }
+
+#contact_info {
+    z-index:            3;
+    top:                66px;
+    left:               22px;
+    border-spacing:     0;
+    font-size:          13px;
+    line-height:        1.2;
+    opacity:            0.999999;
+    }
+
+#contact_info td {
+    vertical-align:     top;
+    }
+
+#contact_info td.label {
+    padding-right:      10px;
+    font-family:        DistrictBold;
+    }
+
+#contact_info a {
+    text-decoration:    none;
+    }
+
+#contact_info a:hover {
+    background:         transparent;
+    color:              #FFF;
+    }
+
+.section.smaller  #contact_info {
+    top:                -300px;
+    }
+
+.busy {
+    z-index:            1;
+    }
+
+.section.smaller .busy {
+    display:            none;
+    }
+
+.gallery {
+    height:             100%;
+    }
+
+.gallery-cell {
+    height:             380px;
+    width:              90%;
+    }
+
+.flickity-prev-next-button {
+    background:         transparent;
+    }
+
+.flickity-prev-next-button:hover {
+    background:         transparent;
+    }
+
+#blog_posts {
+    margin-top:         180px;
+    }
