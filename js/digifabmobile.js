@@ -1,5 +1,6 @@
 $('.gallery').flickity({
   wrapAround: true,
   pageDots: false,
-  prevNextButtons: false
+  prevNextButtons: false,
+  cellSelector: '.gallery-cell'
 })

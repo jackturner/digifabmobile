@@ -281,10 +281,44 @@ a.section:hover {
     }
 
 #info {
-background: rgba(0, 0, 0, 0.6);
-height: 140px;
-margin-bottom: -140px;
-position: relative;
-z-index: 99999;
-border-bottom: 1px solid black;
-}
+    background: rgba(0, 0, 0, 0.6);
+    height: 140px;
+    margin-bottom: -140px;
+    position: relative;
+    z-index: 99999;
+    border-bottom: 1px solid black;
+    }
+
+.static-banner,
+.cell-label {
+    position:           absolute;
+    z-index:            9999;
+    padding-top:        8px;
+    padding-right:      4px;
+    padding-bottom:     6px;
+    padding-left:       4px;
+    font-size:          14px;
+    line-height:        1.4;
+    color:              #FFF;
+    background: rgba(0, 0, 0, 0.6);
+    }
+
+.static-banner {
+    top:                0;
+    left:               5%;
+    font-family:        DistrictBold;
+    }
+
+.cell-label {
+    opacity:            0.0;
+    bottom:             0;
+    right:              0;
+    font-family:        DistrictBookItalic;
+    -webkit-transition: opacity 400ms ease;
+    -moz-transition:    opacity 400ms ease;
+    transition:         opacity 400ms ease;
+    }
+
+.is-selected .cell-label {
+    opacity:            1.0;
+    }
